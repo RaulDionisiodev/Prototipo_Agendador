@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('.horarios').hide();
+  $("#selHorarios>li>a").css("background-color", "red darken-4");
  });
 
 function horarios() {
@@ -12,4 +13,5 @@ function alertar() {
 
 function alertarcancelar() {
     alert("Disciplina cancelada com sucesso!");
+    $('#materia1').hide();
 }
