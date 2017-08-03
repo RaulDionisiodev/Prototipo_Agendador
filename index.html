@@ -5,16 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  
 </head>
 
 <body>
-    <nav class="nav-wrapper red darken-4">
-       
-            <a href="#" class="brand-logo center">Agendamento</a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="index.html">Agendar</a></li>
-                <li><a href="agendamentos.html">Agendamentos</a></li>
-            </ul>      
+    <ul id="dropdown1" class="dropdown-content">
+       <li><a href="index.html"></a></li>
+       <li><a href="https://www.unicarioca.edu.br/">Sair</a></li>
+    </ul>
+
+    <nav> 
+        <div class="nav-wrapper red darken-4">
+
+               <a href="#" class="brand-logo center">Agendamento</a>
+                  <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="index.html">Agendar</a></li>
+                    <li><a href="agendamentos.html">Agendamentos</a></li>
+                    <li id="sair" class="brand-logo right"><a class="dropdown-button" href="#!" data-activates="dropdown1">
+                      <img src="img/Raul.Silva.jpg" class="circle responsive-img" width="50" height="50"></img>  
+                    </a></li>
+                  </ul>
+
+        </div>           
     </nav>
     <br>
     <br>
